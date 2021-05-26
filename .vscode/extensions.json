@@ -1,0 +1,23 @@
+{
+  "recommendations": [
+    "streetsidesoftware.code-spell-checker",
+    "dbaeumer.vscode-eslint",
+    "davidanson.vscode-markdownlint",
+    "esbenp.prettier-vscode",
+    "coenraads.bracket-pair-colorizer",
+    "kamikillerto.vscode-colorize",
+    "zignd.html-css-class-completion",
+    "visualstudioexptteam.vscodeintellicode",
+    "emmanuelbeziat.vscode-great-icons",
+    "redhat.vscode-yaml",
+    "gruntfuggly.todo-tree",
+    "gruntfuggly.activitusbar",
+    "huntertran.auto-markdown-toc",
+    "msjsdiag.debugger-for-chrome",
+    "hediet.vscode-drawio",
+    "richie5um2.vscode-sort-json",
+    "donjayamanne.githistory",
+    "eg2.vscode-npm-script",
+    "christian-kohler.npm-intellisense"
+  ]
+}

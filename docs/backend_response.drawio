@@ -1,0 +1,74 @@
+<mxfile>
+    <diagram id="IfFpuD6ShfjAumSgQZaE" name="Page-1">
+        <mxGraphModel dx="1113" dy="584" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="mV49V6lde2TXxZHHA9LX-16" value="Backend logic of creating response" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1;fontSize=17;" parent="1" vertex="1">
+                    <mxGeometry x="242.5" y="10" width="340" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="mV49V6lde2TXxZHHA9LX-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;startArrow=none;startFill=0;endArrow=classic;endFill=1;" parent="1" source="mV49V6lde2TXxZHHA9LX-17" target="mV49V6lde2TXxZHHA9LX-18" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="mV49V6lde2TXxZHHA9LX-17" value="Request from client" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="352.5" y="50" width="120" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="mV49V6lde2TXxZHHA9LX-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;startArrow=none;startFill=0;endArrow=classic;endFill=1;" parent="1" source="mV49V6lde2TXxZHHA9LX-18" target="mV49V6lde2TXxZHHA9LX-22" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="mV49V6lde2TXxZHHA9LX-18" value="&lt;b&gt;fastify &lt;/b&gt;checks and auto-answers" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="352.5" y="100" width="120" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="mV49V6lde2TXxZHHA9LX-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;startArrow=none;startFill=0;endArrow=classic;endFill=1;" parent="1" source="mV49V6lde2TXxZHHA9LX-22" target="mV49V6lde2TXxZHHA9LX-27" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="412.5" y="220" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="mV49V6lde2TXxZHHA9LX-22" value="validation of request body by &lt;b&gt;JSON Schema&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="352.5" y="160" width="120" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="mV49V6lde2TXxZHHA9LX-25" value="bodyLimit --&amp;gt; HTTP 413&lt;br&gt;HTTP 404" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+                    <mxGeometry x="492.5" y="110" width="140" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="mV49V6lde2TXxZHHA9LX-26" value="400 (Bad Request)&lt;br&gt;{&quot;statusCode&quot;:400,&quot;error&quot;:&quot;Bad Request&quot;,&quot;message&quot;:&quot;body should have required property 'url'&quot;}" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+                    <mxGeometry x="492.5" y="140" width="230" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="mV49V6lde2TXxZHHA9LX-29" value="Error" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;startArrow=none;startFill=0;endArrow=classic;endFill=1;" parent="1" source="mV49V6lde2TXxZHHA9LX-27" target="mV49V6lde2TXxZHHA9LX-28" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="mV49V6lde2TXxZHHA9LX-33" value="No errors" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;startArrow=none;startFill=0;endArrow=classic;endFill=1;" parent="1" source="mV49V6lde2TXxZHHA9LX-27" target="mV49V6lde2TXxZHHA9LX-32" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="mV49V6lde2TXxZHHA9LX-27" value="&lt;span&gt;my checks:&lt;br&gt;empty URL,&lt;br&gt;bad URL,&lt;br&gt;not bzip2&lt;br&gt;&amp;nbsp;file&lt;/span&gt;" style="rhombus;whiteSpace=wrap;html=1;align=center;" parent="1" vertex="1">
+                    <mxGeometry x="345" y="220" width="135" height="130" as="geometry"/>
+                </mxCell>
+                <mxCell id="mV49V6lde2TXxZHHA9LX-28" value="{&lt;br&gt;errorInRequest: string,&lt;br&gt;answer: null&lt;br&gt;}" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;align=center;" parent="1" vertex="1">
+                    <mxGeometry x="527.5" y="255" width="160" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="mV49V6lde2TXxZHHA9LX-36" value="&lt;font style=&quot;font-size: 11px&quot;&gt;Error&lt;/font&gt;" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontSize=13;startArrow=none;startFill=0;endArrow=classic;endFill=1;" parent="1" source="mV49V6lde2TXxZHHA9LX-32" target="mV49V6lde2TXxZHHA9LX-35" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="mV49V6lde2TXxZHHA9LX-38" value="&lt;font style=&quot;font-size: 11px&quot;&gt;No errors&lt;/font&gt;" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=13;startArrow=none;startFill=0;endArrow=classic;endFill=1;" parent="1" source="mV49V6lde2TXxZHHA9LX-32" target="mV49V6lde2TXxZHHA9LX-39" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="412.5" y="510" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="mV49V6lde2TXxZHHA9LX-32" value="&lt;span&gt;Parsing&lt;br&gt;start&lt;/span&gt;" style="rhombus;whiteSpace=wrap;html=1;align=center;" parent="1" vertex="1">
+                    <mxGeometry x="372.5" y="390" width="80" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="mV49V6lde2TXxZHHA9LX-35" value="{&lt;br&gt;errorInRequest: null,&lt;br&gt;answer: {&lt;br&gt;errorWhileParsing: string,&lt;br&gt;result: {}&lt;br&gt;}&lt;br&gt;}" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;align=center;" parent="1" vertex="1">
+                    <mxGeometry x="512.5" y="375" width="225" height="110" as="geometry"/>
+                </mxCell>
+                <mxCell id="mV49V6lde2TXxZHHA9LX-39" value="errorInRequest: null,&lt;br&gt;answer: {&lt;br&gt;errorWhileParsing: null,&lt;br&gt;result: {...}&lt;br&gt;}" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;align=center;" parent="1" vertex="1">
+                    <mxGeometry x="300" y="530" width="225" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="lIQ1UsagaqwoHJ4RJN5h-1" value="If backend got exceptions:&lt;br&gt;&lt;br&gt;HTTP 500&lt;br&gt;{&quot;statusCode&quot;:500,&quot;error&quot;:&quot;Internal Server Error&quot;,&quot;message&quot;:&quot;Cannot read property 'replace' of undefined&quot;}" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+                    <mxGeometry x="117.5" y="385" width="227.5" height="90" as="geometry"/>
+                </mxCell>
+                <mxCell id="2" value="&lt;span style=&quot;font-size: 11px&quot;&gt;&lt;b style=&quot;font-size: 11px&quot;&gt;errorInRequest &lt;/b&gt;- smth bad at client's side:&lt;/span&gt;&lt;br style=&quot;font-size: 11px&quot;&gt;&lt;span style=&quot;font-size: 11px&quot;&gt;* Empty URL&lt;br style=&quot;font-size: 11px&quot;&gt;&lt;/span&gt;&lt;span style=&quot;font-size: 11px&quot;&gt;* Bad URL (backend could not get file with this URL)&lt;br style=&quot;font-size: 11px&quot;&gt;&lt;/span&gt;&lt;span style=&quot;font-size: 11px&quot;&gt;* Fat request body (reject such requests)&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;rotation=0;fontStyle=2" vertex="1" parent="1">
+                    <mxGeometry x="60" y="250.5" width="270" height="69" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>

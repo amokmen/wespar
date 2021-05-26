@@ -1,0 +1,5 @@
+#!/bin/sh
+. "$(dirname "$0")/_/husky.sh"
+
+# Remember! Windows and Linux command line differs!
+npx --no-install commitlint --edit $1 --config commitlint.config.js

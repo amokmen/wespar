@@ -1,0 +1,141 @@
+@import "normalize.css";
+
+/* This applies from 0px to 1000px -- mobile screen */
+body {
+  font-size: 34px;
+  font-family: sans-serif;
+  /* background: rgb(255, 247, 241); */
+  background: rgb(240, 255, 240);
+  margin-left: 1rem;
+  margin-right: 1rem;
+  margin-top: 0rem;
+  margin-bottom: 0rem;
+}
+
+hgroup {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  /* background-image: url(background.jpg);
+  background-size: 100%;
+  background-repeat: no-repeat; */
+}
+
+footer {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}
+
+h1 {
+  margin-top: 1rem;
+  margin-bottom: 0rem;
+  text-align: center;
+}
+
+#pSubtitle {
+  font-style: italic;
+  font-size: 90%;
+  margin-top: 0.5rem;
+  text-align: center;
+}
+
+p,
+label {
+  font-size: 100%;
+}
+
+p.small {
+  font-size: 80%;
+  margin-top: 0rem;
+  margin-bottom: 1rem;
+}
+
+#inputTextLink {
+  box-sizing: border-box;
+  width: 100%;
+  padding: 0.4rem 0.6rem;
+  border: 1px solid #ccc;
+  /* By default here size not 100%, so this text would not equal to <p> text */
+  font-size: 100%;
+  font-family: sans-serif;
+}
+
+#inputTextLink::placeholder {
+  opacity: 0.3;
+}
+
+#pRequestToServerStatus,
+#pServerErrorOutput,
+#pServerResultOutput {
+  overflow-wrap: break-word;
+}
+
+#pServerResultOutput {
+  background: rgb(241, 236, 255);
+  font-family: sans-serif;
+}
+
+#dAllCheckBoxes {
+  margin-top: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+button {
+  background-color: #4caf50;
+  color: white;
+  padding: 1rem;
+
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  font-weight: bold;
+  font-size: 120%;
+}
+
+/* Add a hover effect for buttons */
+button:hover,
+button:focus {
+  opacity: 0.8;
+}
+
+a {
+  text-decoration: none;
+  color: #0000ff;
+}
+
+a:visited {
+  color: #0000ff;
+}
+
+a:hover {
+  color: #8383ff;
+}
+
+img {
+  height: 4rem;
+}
+
+.hidden {
+  display: none;
+}
+
+/* This applies from 1000px onwards -- desktop screen */
+@media (min-width: 1000px) {
+  body {
+    font-size: 18px;
+    /* background: rgb(240, 255, 240); */
+  }
+
+  img {
+    height: 2rem;
+  }
+}

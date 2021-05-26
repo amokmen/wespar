@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="google-site-verification"
+      content="ccIcYXG1RK61Oqangyup1_u-Jj3nqYaNNYI6FmBr9xc"
+    />
+    <title>Wesnoth duel replay parser</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" href="favicon.svg" type="image/svg+xml" />
+    <script type="application/javascript" src="main_build.js"></script>
+    <noscript
+      >[ERROR] It seems that your browser does not support JavaScript. This page
+      would not work without JavaScript!</noscript
+    >
+    <!-- <meta
+      name="keywords"
+      content="wesnoth, game, replay, parser, chat, players, duel, 1vs1"
+    />
+    <meta
+      name="description"
+      content="Wesnoth duel replay parser. For extracting chat and some info."
+    /> -->
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <!-- <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=G-HF6CCDJM52"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+
+      gtag("config", "G-HF6CCDJM52");
+    </script> -->
+  </head>
+  <body>
+    <header>
+      <hgroup>
+        <h1 id="topAnchor">
+          <a href="https://wesnoth.org/">Wesnoth</a> duel
+          <a href="https://replays.wesnoth.org/">replay</a> parser
+        </h1>
+        <p id="pSubtitle">
+          For extracting chat log and other info<br />
+          from compressed Wesnoth 1.14.X 1vs1 replays.
+        </p>
+      </hgroup>
+    </header>
+    <main>
+      <textarea
+        id="inputTextLink"
+        placeholder="https://replays.wesnoth.org/1.14/2021/03/22/2p__Weldyn_Channel_Turn_14_(155976).bz2"
+        autofocus
+      ></textarea>
+      <button type="button" id="buttonForClick" onclick="RequestToBackend()">
+        Send link of replay for parsing
+      </button>
+      <p>
+        Status of request to backend: <b id="pRequestToServerStatus">...</b>
+      </p>
+      <p>Errors from backend: <b id="pServerErrorOutput">...</b></p>
+      <hr />
+      <article>
+        <p class="hidden">Remove chat messages for checked <b>observers</b>:</p>
+        <div id="dAllCheckBoxes"></div>
+        <hr />
+        <p class="hidden" id="pServerResultOutput">...</p>
+      </article>
+    </main>
+    <footer>
+      <p><a href="#topAnchor">^ Back to top</a></p>
+      <p class="small">Created by Amok, 2021.</p>
+      <p class="small">Version <b id="bVersion">...</b></p>
+      <p class="small">Updated <b id="bUpdateDate">...</b></p>
+      <p class="small">
+        <a href="https://github.com/amokmen/wespar/"
+          ><img src="github-mark.svg"
+        /></a>
+      </p>
+      <p class="small">If you have a PayPal account, you could:</p>
+      <a href="https://ko-fi.com/amokmen"><img src="kofi.svg" /></a>
+    </footer>
+    <!-- <label id="labelDebug">...</label> -->
+  </body>
+</html>

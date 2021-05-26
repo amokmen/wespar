@@ -1,0 +1,51 @@
+{
+    "version": "0.1",
+    "ignorePaths": [
+        "node_modules", // this will ignore anything the node_modules directory
+        //"**/node_modules", // the same for this one
+        //"**/node_modules/**", // the same for this one
+        //"node_modules/**", // Doesn't currently work due to how the current working directory is determined.
+        //"vscode-extension", //
+        ".git", // Ignore the .git directory
+        //"*.dll", // Ignore all .dll files.
+        //"**/*.dll" // Ignore all .dll files
+        "tools",
+        "tests",
+        "researching"
+    ],
+    "language": "en-GB,en-US",
+    "enableFiletypes": [
+        "!asciidoc",
+        "!c",
+        "!cpp",
+        "!csharp",
+        "!go",
+        "!graphql",
+        "!handlebars",
+        "!haskell",
+        "!jade",
+        "!java",
+        "!javascriptreact",
+        "!latex",
+        "!less",
+        "!php",
+        "!pug",
+        "!restructuredtext",
+        "!rust",
+        "!scala",
+        "!scss",
+        "!typescriptreact"
+    ],
+    "words": [
+        "bzip",
+        "eqeqeq",
+        "fastify",
+        "linebreak",
+        "Pino",
+        "Replay",
+        "savegame",
+        "wesnoth",
+        "wespar",
+        "WMLPARSER"
+    ]
+}
