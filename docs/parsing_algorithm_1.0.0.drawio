@@ -1,19 +1,19 @@
-<mxfile>
+<mxfile host="65bd71144e" scale="1" border="0">
     <diagram id="nfJ5_azAUDoWvQUrPYjy" name="Page-1">
-        <mxGraphModel dx="747" dy="584" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+        <mxGraphModel dx="853" dy="734" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#FFFFFF" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
-                <mxCell id="8Br9MOH5oFsKT0DK4MiI-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="8Br9MOH5oFsKT0DK4MiI-1" target="8Br9MOH5oFsKT0DK4MiI-8" edge="1">
+                <mxCell id="8Br9MOH5oFsKT0DK4MiI-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=#000000;" parent="1" source="8Br9MOH5oFsKT0DK4MiI-1" target="8Br9MOH5oFsKT0DK4MiI-8" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="8Br9MOH5oFsKT0DK4MiI-1" value="Start parsing WML" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                <mxCell id="8Br9MOH5oFsKT0DK4MiI-1" value="Start parsing WML" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#000000;fillColor=#FFFFFF;fontColor=#000000;" parent="1" vertex="1">
                     <mxGeometry x="365" y="60" width="120" height="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="8Br9MOH5oFsKT0DK4MiI-7" value="No" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="8Br9MOH5oFsKT0DK4MiI-5" target="8Br9MOH5oFsKT0DK4MiI-6" edge="1">
+                <mxCell id="8Br9MOH5oFsKT0DK4MiI-7" value="No" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;strokeColor=#000000;fontColor=#000000;labelBackgroundColor=#FFFFFF;" parent="1" source="8Br9MOH5oFsKT0DK4MiI-5" target="8Br9MOH5oFsKT0DK4MiI-6" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="8Br9MOH5oFsKT0DK4MiI-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="8Br9MOH5oFsKT0DK4MiI-5" target="8Br9MOH5oFsKT0DK4MiI-13" edge="1">
+                <mxCell id="8Br9MOH5oFsKT0DK4MiI-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=#000000;" parent="1" source="8Br9MOH5oFsKT0DK4MiI-5" target="8Br9MOH5oFsKT0DK4MiI-13" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
                 <mxCell id="8Br9MOH5oFsKT0DK4MiI-5" value="Is value of key &quot;&lt;b&gt;campaign_type&lt;/b&gt;&quot; equal &quot;&lt;b&gt;multiplayer&lt;/b&gt;&quot;? " style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
@@ -22,31 +22,31 @@
                 <mxCell id="8Br9MOH5oFsKT0DK4MiI-6" value="[ERR] It's not a multiplayer replay. Would skip parsing." style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" parent="1" vertex="1">
                     <mxGeometry x="590" y="161" width="130" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="8Br9MOH5oFsKT0DK4MiI-10" value="No" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="8Br9MOH5oFsKT0DK4MiI-8" target="8Br9MOH5oFsKT0DK4MiI-9" edge="1">
+                <mxCell id="8Br9MOH5oFsKT0DK4MiI-10" value="No" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;strokeColor=#000000;fontColor=#000000;labelBackgroundColor=#FFFFFF;" parent="1" source="8Br9MOH5oFsKT0DK4MiI-8" target="8Br9MOH5oFsKT0DK4MiI-9" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="8Br9MOH5oFsKT0DK4MiI-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="8Br9MOH5oFsKT0DK4MiI-8" target="8Br9MOH5oFsKT0DK4MiI-5" edge="1">
+                <mxCell id="8Br9MOH5oFsKT0DK4MiI-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=#000000;" parent="1" source="8Br9MOH5oFsKT0DK4MiI-8" target="8Br9MOH5oFsKT0DK4MiI-5" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
                 <mxCell id="8Br9MOH5oFsKT0DK4MiI-8" value="Is there key &quot;&lt;b&gt;campaign_type&lt;/b&gt;&quot;? " style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
                     <mxGeometry x="364" y="106" width="123" height="44" as="geometry"/>
                 </mxCell>
-                <mxCell id="8Br9MOH5oFsKT0DK4MiI-9" value="[ERR] It's not &amp;lt;valid&amp;gt; replay or not replay at all. Would skip parsing." style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" parent="1" vertex="1">
+                <mxCell id="8Br9MOH5oFsKT0DK4MiI-9" value="[ERR] It's not &amp;lt;valid&amp;gt; replay or not replay at all. Would skip parsing." style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;strokeColor=#000000;fillColor=#FFFFFF;fontColor=#000000;" parent="1" vertex="1">
                     <mxGeometry x="590" y="80" width="220" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="8Br9MOH5oFsKT0DK4MiI-16" value="No" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="8Br9MOH5oFsKT0DK4MiI-13" target="8Br9MOH5oFsKT0DK4MiI-15" edge="1">
+                <mxCell id="8Br9MOH5oFsKT0DK4MiI-16" value="No" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#000000;fontColor=#000000;labelBackgroundColor=#FFFFFF;" parent="1" source="8Br9MOH5oFsKT0DK4MiI-13" target="8Br9MOH5oFsKT0DK4MiI-15" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="8Br9MOH5oFsKT0DK4MiI-18" value="Yes" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="8Br9MOH5oFsKT0DK4MiI-13" target="8Br9MOH5oFsKT0DK4MiI-17" edge="1">
+                <mxCell id="8Br9MOH5oFsKT0DK4MiI-18" value="Yes" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;strokeColor=#000000;fontColor=#000000;labelBackgroundColor=#FFFFFF;" parent="1" source="8Br9MOH5oFsKT0DK4MiI-13" target="8Br9MOH5oFsKT0DK4MiI-17" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="8Br9MOH5oFsKT0DK4MiI-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="8Br9MOH5oFsKT0DK4MiI-13" target="8Br9MOH5oFsKT0DK4MiI-19" edge="1">
+                <mxCell id="8Br9MOH5oFsKT0DK4MiI-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=#000000;" parent="1" source="8Br9MOH5oFsKT0DK4MiI-13" target="8Br9MOH5oFsKT0DK4MiI-19" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
                 <mxCell id="8Br9MOH5oFsKT0DK4MiI-13" value="Is there tag &lt;b&gt;[snapshot]&lt;/b&gt;?" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
                     <mxGeometry x="370" y="230" width="110" height="47" as="geometry"/>
                 </mxCell>
-                <mxCell id="8Br9MOH5oFsKT0DK4MiI-58" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontColor=#000000;" parent="1" source="8Br9MOH5oFsKT0DK4MiI-15" target="8Br9MOH5oFsKT0DK4MiI-52" edge="1">
+                <mxCell id="8Br9MOH5oFsKT0DK4MiI-58" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontColor=#000000;strokeColor=#000000;" parent="1" source="8Br9MOH5oFsKT0DK4MiI-15" target="8Br9MOH5oFsKT0DK4MiI-52" edge="1">
                     <mxGeometry relative="1" as="geometry">
                         <Array as="points">
                             <mxPoint x="790" y="254"/>
@@ -57,7 +57,7 @@
                 <mxCell id="8Br9MOH5oFsKT0DK4MiI-15" value="It's replay." style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" parent="1" vertex="1">
                     <mxGeometry x="590" y="236.75" width="130" height="33.5" as="geometry"/>
                 </mxCell>
-                <mxCell id="8Br9MOH5oFsKT0DK4MiI-64" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontColor=#000000;" parent="1" source="8Br9MOH5oFsKT0DK4MiI-17" target="8Br9MOH5oFsKT0DK4MiI-63" edge="1">
+                <mxCell id="8Br9MOH5oFsKT0DK4MiI-64" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontColor=#000000;strokeColor=#000000;" parent="1" source="8Br9MOH5oFsKT0DK4MiI-17" target="8Br9MOH5oFsKT0DK4MiI-63" edge="1">
                     <mxGeometry relative="1" as="geometry">
                         <Array as="points">
                             <mxPoint x="78" y="254"/>
@@ -68,13 +68,13 @@
                 <mxCell id="8Br9MOH5oFsKT0DK4MiI-17" value="It's savegame." style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" parent="1" vertex="1">
                     <mxGeometry x="130" y="236.75" width="130" height="33.5" as="geometry"/>
                 </mxCell>
-                <mxCell id="8Br9MOH5oFsKT0DK4MiI-23" value="No" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="8Br9MOH5oFsKT0DK4MiI-19" target="8Br9MOH5oFsKT0DK4MiI-21" edge="1">
+                <mxCell id="8Br9MOH5oFsKT0DK4MiI-23" value="No" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#000000;fontColor=#000000;labelBackgroundColor=#FFFFFF;" parent="1" source="8Br9MOH5oFsKT0DK4MiI-19" target="8Br9MOH5oFsKT0DK4MiI-21" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="8Br9MOH5oFsKT0DK4MiI-25" value="Yes" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="8Br9MOH5oFsKT0DK4MiI-19" target="8Br9MOH5oFsKT0DK4MiI-24" edge="1">
+                <mxCell id="8Br9MOH5oFsKT0DK4MiI-25" value="Yes" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#000000;fontColor=#000000;labelBackgroundColor=#FFFFFF;" parent="1" source="8Br9MOH5oFsKT0DK4MiI-19" target="8Br9MOH5oFsKT0DK4MiI-24" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="8Br9MOH5oFsKT0DK4MiI-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontColor=#000000;" parent="1" source="8Br9MOH5oFsKT0DK4MiI-19" target="8Br9MOH5oFsKT0DK4MiI-32" edge="1">
+                <mxCell id="8Br9MOH5oFsKT0DK4MiI-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontColor=#000000;strokeColor=#000000;" parent="1" source="8Br9MOH5oFsKT0DK4MiI-19" target="8Br9MOH5oFsKT0DK4MiI-32" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
                 <mxCell id="8Br9MOH5oFsKT0DK4MiI-19" value="Is there key &quot;&lt;b&gt;mp_game_title&lt;/b&gt;&quot;? " style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
@@ -86,34 +86,34 @@
                 <mxCell id="8Br9MOH5oFsKT0DK4MiI-24" value="It's a server recorded replay." style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" parent="1" vertex="1">
                     <mxGeometry x="110" y="293.25" width="150" height="42.75" as="geometry"/>
                 </mxCell>
-                <mxCell id="8Br9MOH5oFsKT0DK4MiI-27" value="" style="endArrow=none;html=1;" parent="1" edge="1">
+                <mxCell id="8Br9MOH5oFsKT0DK4MiI-27" value="" style="endArrow=none;html=1;fontColor=#000000;strokeColor=#000000;" parent="1" edge="1">
                     <mxGeometry width="50" height="50" relative="1" as="geometry">
                         <mxPoint x="30" y="110" as="sourcePoint"/>
                         <mxPoint x="30" y="340" as="targetPoint"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="8Br9MOH5oFsKT0DK4MiI-28" value="" style="endArrow=none;html=1;" parent="1" edge="1">
+                <mxCell id="8Br9MOH5oFsKT0DK4MiI-28" value="" style="endArrow=none;html=1;fontColor=#000000;strokeColor=#000000;" parent="1" edge="1">
                     <mxGeometry width="50" height="50" relative="1" as="geometry">
                         <mxPoint x="30" y="340" as="sourcePoint"/>
                         <mxPoint x="60" y="340" as="targetPoint"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="8Br9MOH5oFsKT0DK4MiI-29" value="" style="endArrow=none;html=1;" parent="1" edge="1">
+                <mxCell id="8Br9MOH5oFsKT0DK4MiI-29" value="" style="endArrow=none;html=1;fontColor=#000000;strokeColor=#000000;" parent="1" edge="1">
                     <mxGeometry width="50" height="50" relative="1" as="geometry">
                         <mxPoint x="30" y="109.5" as="sourcePoint"/>
                         <mxPoint x="60" y="109.5" as="targetPoint"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="8Br9MOH5oFsKT0DK4MiI-30" value="First stage" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;rotation=-90;" parent="1" vertex="1">
+                <mxCell id="8Br9MOH5oFsKT0DK4MiI-30" value="First stage" style="text;html=1;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;rotation=-90;fontColor=#000000;" parent="1" vertex="1">
                     <mxGeometry x="-10" y="216.75" width="120" height="20" as="geometry"/>
                 </mxCell>
-                <mxCell id="8Br9MOH5oFsKT0DK4MiI-35" value="No" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="8Br9MOH5oFsKT0DK4MiI-32" target="8Br9MOH5oFsKT0DK4MiI-34" edge="1">
+                <mxCell id="8Br9MOH5oFsKT0DK4MiI-35" value="No" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#000000;fontColor=#000000;labelBackgroundColor=#FFFFFF;" parent="1" source="8Br9MOH5oFsKT0DK4MiI-32" target="8Br9MOH5oFsKT0DK4MiI-34" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="8Br9MOH5oFsKT0DK4MiI-37" value="Yes" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="8Br9MOH5oFsKT0DK4MiI-32" target="8Br9MOH5oFsKT0DK4MiI-36" edge="1">
+                <mxCell id="8Br9MOH5oFsKT0DK4MiI-37" value="Yes" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#000000;fontColor=#000000;labelBackgroundColor=#FFFFFF;" parent="1" source="8Br9MOH5oFsKT0DK4MiI-32" target="8Br9MOH5oFsKT0DK4MiI-36" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="8Br9MOH5oFsKT0DK4MiI-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontColor=#000000;" parent="1" source="8Br9MOH5oFsKT0DK4MiI-32" target="8Br9MOH5oFsKT0DK4MiI-38" edge="1">
+                <mxCell id="8Br9MOH5oFsKT0DK4MiI-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontColor=#000000;strokeColor=#000000;" parent="1" source="8Br9MOH5oFsKT0DK4MiI-32" target="8Br9MOH5oFsKT0DK4MiI-38" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
                 <mxCell id="8Br9MOH5oFsKT0DK4MiI-32" value="&lt;div&gt;Is there &lt;b&gt;[addon]&lt;/b&gt; tag inside top-level tag &lt;b&gt;[multiplayer]&lt;/b&gt;?&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
@@ -125,7 +125,7 @@
                 <mxCell id="8Br9MOH5oFsKT0DK4MiI-36" value="At least 1 addon." style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" parent="1" vertex="1">
                     <mxGeometry x="130" y="367.25" width="130" height="33.5" as="geometry"/>
                 </mxCell>
-                <mxCell id="8Br9MOH5oFsKT0DK4MiI-41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontColor=#000000;" parent="1" source="8Br9MOH5oFsKT0DK4MiI-38" target="8Br9MOH5oFsKT0DK4MiI-40" edge="1">
+                <mxCell id="8Br9MOH5oFsKT0DK4MiI-41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontColor=#000000;strokeColor=#000000;" parent="1" source="8Br9MOH5oFsKT0DK4MiI-38" target="8Br9MOH5oFsKT0DK4MiI-40" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
                 <mxCell id="8Br9MOH5oFsKT0DK4MiI-38" value="Get scenario settings between tags &lt;b&gt;[multiplayer]...[options]&lt;/b&gt;." style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
@@ -137,116 +137,188 @@
                 <mxCell id="8Br9MOH5oFsKT0DK4MiI-42" value="Hardcoded for 2 sides" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=2;fontColor=#808080;" parent="1" vertex="1">
                     <mxGeometry x="530" y="497.5" width="140" height="20" as="geometry"/>
                 </mxCell>
-                <mxCell id="8Br9MOH5oFsKT0DK4MiI-44" value="" style="endArrow=none;html=1;" parent="1" edge="1">
+                <mxCell id="8Br9MOH5oFsKT0DK4MiI-44" value="" style="endArrow=none;html=1;fontColor=#000000;strokeColor=#000000;" parent="1" edge="1">
                     <mxGeometry width="50" height="50" relative="1" as="geometry">
                         <mxPoint x="30" y="340.5" as="sourcePoint"/>
                         <mxPoint x="30" y="540" as="targetPoint"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="8Br9MOH5oFsKT0DK4MiI-45" value="" style="endArrow=none;html=1;" parent="1" edge="1">
+                <mxCell id="8Br9MOH5oFsKT0DK4MiI-45" value="" style="endArrow=none;html=1;fontColor=#000000;strokeColor=#000000;" parent="1" edge="1">
                     <mxGeometry width="50" height="50" relative="1" as="geometry">
                         <mxPoint x="30" y="540" as="sourcePoint"/>
                         <mxPoint x="60" y="540" as="targetPoint"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="8Br9MOH5oFsKT0DK4MiI-46" value="" style="endArrow=none;html=1;" parent="1" edge="1">
+                <mxCell id="8Br9MOH5oFsKT0DK4MiI-46" value="" style="endArrow=none;html=1;fontColor=#000000;strokeColor=#000000;" parent="1" edge="1">
                     <mxGeometry width="50" height="50" relative="1" as="geometry">
                         <mxPoint x="30" y="340" as="sourcePoint"/>
                         <mxPoint x="60" y="340" as="targetPoint"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="8Br9MOH5oFsKT0DK4MiI-47" value="Second stage" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;rotation=-90;" parent="1" vertex="1">
+                <mxCell id="8Br9MOH5oFsKT0DK4MiI-47" value="Second stage" style="text;html=1;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;rotation=-90;fontColor=#000000;" parent="1" vertex="1">
                     <mxGeometry x="-10" y="438.5" width="120" height="20" as="geometry"/>
                 </mxCell>
-                <mxCell id="8Br9MOH5oFsKT0DK4MiI-48" value="Countdown, shuffle, era, observers and other" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=2;" parent="1" vertex="1">
+                <mxCell id="8Br9MOH5oFsKT0DK4MiI-48" value="Countdown, shuffle, era, observers and other" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=2;fontColor=#000000;" parent="1" vertex="1">
                     <mxGeometry x="530" y="438.5" width="260" height="20" as="geometry"/>
                 </mxCell>
-                <mxCell id="8Br9MOH5oFsKT0DK4MiI-49" value="" style="endArrow=none;html=1;" parent="1" edge="1">
+                <mxCell id="8Br9MOH5oFsKT0DK4MiI-49" value="" style="endArrow=none;html=1;fontColor=#000000;strokeColor=#000000;" parent="1" edge="1">
                     <mxGeometry width="50" height="50" relative="1" as="geometry">
                         <mxPoint x="30" y="540" as="sourcePoint"/>
                         <mxPoint x="30" y="840" as="targetPoint"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="8Br9MOH5oFsKT0DK4MiI-50" value="" style="endArrow=none;html=1;" parent="1" edge="1">
+                <mxCell id="8Br9MOH5oFsKT0DK4MiI-50" value="" style="endArrow=none;html=1;fontColor=#000000;strokeColor=#000000;" parent="1" edge="1">
                     <mxGeometry width="50" height="50" relative="1" as="geometry">
                         <mxPoint x="30" y="840" as="sourcePoint"/>
                         <mxPoint x="60" y="840" as="targetPoint"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="8Br9MOH5oFsKT0DK4MiI-51" value="Third stage" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;rotation=-90;" parent="1" vertex="1">
+                <mxCell id="8Br9MOH5oFsKT0DK4MiI-51" value="Third stage" style="text;html=1;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;rotation=-90;fontColor=#000000;" parent="1" vertex="1">
                     <mxGeometry x="-10" y="690" width="120" height="20" as="geometry"/>
                 </mxCell>
-                <mxCell id="8Br9MOH5oFsKT0DK4MiI-56" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontColor=#000000;" parent="1" source="8Br9MOH5oFsKT0DK4MiI-52" target="8Br9MOH5oFsKT0DK4MiI-55" edge="1">
+                <mxCell id="8Br9MOH5oFsKT0DK4MiI-56" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontColor=#000000;strokeColor=#000000;" parent="1" source="8Br9MOH5oFsKT0DK4MiI-52" target="8Br9MOH5oFsKT0DK4MiI-55" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
                 <mxCell id="8Br9MOH5oFsKT0DK4MiI-52" value="&lt;div&gt;Get both sides info from tags &lt;b&gt;[side]&lt;/b&gt; inside top-level tag &lt;b&gt;[scenario]&lt;/b&gt;.&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=center;" parent="1" vertex="1">
                     <mxGeometry x="567.5" y="550" width="175" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="8Br9MOH5oFsKT0DK4MiI-54" value="Color, faction, is_host, nickname, side number, leader." style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=2;" parent="1" vertex="1">
+                <mxCell id="8Br9MOH5oFsKT0DK4MiI-54" value="Color, faction, is_host, nickname, side number, leader." style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=2;fontColor=#000000;" parent="1" vertex="1">
                     <mxGeometry x="310.5" y="570" width="230" height="20" as="geometry"/>
                 </mxCell>
-                <mxCell id="8Br9MOH5oFsKT0DK4MiI-60" value="Yes" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="8Br9MOH5oFsKT0DK4MiI-55" target="8Br9MOH5oFsKT0DK4MiI-59" edge="1">
+                <mxCell id="8Br9MOH5oFsKT0DK4MiI-60" value="Yes" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=#000000;labelBackgroundColor=#ffffff;fontColor=#000000;" parent="1" source="8Br9MOH5oFsKT0DK4MiI-55" target="8Br9MOH5oFsKT0DK4MiI-59" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
                 <mxCell id="8Br9MOH5oFsKT0DK4MiI-55" value="Is there top-level tag &lt;b&gt;[carryover_sides_start]&lt;/b&gt; AND inside it tags &lt;b&gt;[side]&lt;/b&gt;?" style="rounded=0;whiteSpace=wrap;html=1;align=center;" parent="1" vertex="1">
                     <mxGeometry x="567.5" y="627" width="175" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="8Br9MOH5oFsKT0DK4MiI-62" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontColor=#000000;" parent="1" source="8Br9MOH5oFsKT0DK4MiI-59" target="8Br9MOH5oFsKT0DK4MiI-61" edge="1">
+                <mxCell id="8Br9MOH5oFsKT0DK4MiI-62" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontColor=#000000;strokeColor=#000000;" parent="1" source="8Br9MOH5oFsKT0DK4MiI-59" target="8Br9MOH5oFsKT0DK4MiI-61" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
                 <mxCell id="8Br9MOH5oFsKT0DK4MiI-59" value="Overwrite leader from tags &lt;b&gt;[unit]&lt;/b&gt; inside &lt;b&gt;[side]&lt;/b&gt;." style="rounded=0;whiteSpace=wrap;html=1;align=center;" parent="1" vertex="1">
                     <mxGeometry x="567.5" y="722" width="175" height="38" as="geometry"/>
                 </mxCell>
-                <mxCell id="8Br9MOH5oFsKT0DK4MiI-79" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontColor=#000000;" parent="1" source="8Br9MOH5oFsKT0DK4MiI-61" target="8Br9MOH5oFsKT0DK4MiI-77" edge="1">
+                <mxCell id="8Br9MOH5oFsKT0DK4MiI-79" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontColor=#000000;strokeColor=#000000;" parent="1" source="8Br9MOH5oFsKT0DK4MiI-61" target="8Br9MOH5oFsKT0DK4MiI-77" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
                 <mxCell id="8Br9MOH5oFsKT0DK4MiI-61" value="Overwrite color from tags &lt;b&gt;[old_side1]&lt;/b&gt; and &lt;b&gt;[old_side2]&lt;/b&gt; inside &lt;b&gt;[carryover_sides_start]&lt;/b&gt;." style="rounded=0;whiteSpace=wrap;html=1;align=center;" parent="1" vertex="1">
                     <mxGeometry x="567.5" y="774" width="175" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="8Br9MOH5oFsKT0DK4MiI-66" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontColor=#000000;" parent="1" source="8Br9MOH5oFsKT0DK4MiI-63" target="8Br9MOH5oFsKT0DK4MiI-65" edge="1">
+                <mxCell id="8Br9MOH5oFsKT0DK4MiI-66" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontColor=#000000;strokeColor=#000000;" parent="1" source="8Br9MOH5oFsKT0DK4MiI-63" target="8Br9MOH5oFsKT0DK4MiI-65" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
                 <mxCell id="8Br9MOH5oFsKT0DK4MiI-63" value="&lt;div&gt;Get both sides info from tags &lt;b&gt;[side]&lt;/b&gt; inside top-level tag &lt;b&gt;[snapshot]&lt;/b&gt;.&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=center;" parent="1" vertex="1">
                     <mxGeometry x="97.5" y="550" width="175" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="8Br9MOH5oFsKT0DK4MiI-78" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontColor=#000000;" parent="1" source="8Br9MOH5oFsKT0DK4MiI-65" target="8Br9MOH5oFsKT0DK4MiI-77" edge="1">
+                <mxCell id="8Br9MOH5oFsKT0DK4MiI-78" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontColor=#000000;strokeColor=#000000;" parent="1" source="8Br9MOH5oFsKT0DK4MiI-65" target="8Br9MOH5oFsKT0DK4MiI-77" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
                 <mxCell id="8Br9MOH5oFsKT0DK4MiI-65" value="Overwrite leader from tags &lt;b&gt;[unit]&lt;/b&gt; inside tags &lt;b&gt;[side]&lt;/b&gt; inside tag &lt;b&gt;[snapshot]&lt;/b&gt;." style="rounded=0;whiteSpace=wrap;html=1;align=center;" parent="1" vertex="1">
                     <mxGeometry x="97.5" y="630" width="175" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="8Br9MOH5oFsKT0DK4MiI-74" value="" style="endArrow=none;html=1;" parent="1" edge="1">
+                <mxCell id="8Br9MOH5oFsKT0DK4MiI-74" value="" style="endArrow=none;html=1;fontColor=#000000;strokeColor=#000000;" parent="1" edge="1">
                     <mxGeometry width="50" height="50" relative="1" as="geometry">
                         <mxPoint x="30" y="840" as="sourcePoint"/>
                         <mxPoint x="30" y="950" as="targetPoint"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="8Br9MOH5oFsKT0DK4MiI-75" value="" style="endArrow=none;html=1;" parent="1" edge="1">
+                <mxCell id="8Br9MOH5oFsKT0DK4MiI-75" value="" style="endArrow=none;html=1;fontColor=#000000;strokeColor=#000000;" parent="1" edge="1">
                     <mxGeometry width="50" height="50" relative="1" as="geometry">
                         <mxPoint x="30" y="950" as="sourcePoint"/>
                         <mxPoint x="60" y="950" as="targetPoint"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="8Br9MOH5oFsKT0DK4MiI-76" value="Fourth stage" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;rotation=-90;" parent="1" vertex="1">
+                <mxCell id="8Br9MOH5oFsKT0DK4MiI-76" value="Fourth stage" style="text;html=1;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;rotation=-90;fontColor=#000000;" parent="1" vertex="1">
                     <mxGeometry x="-10" y="890" width="120" height="20" as="geometry"/>
                 </mxCell>
-                <mxCell id="8Br9MOH5oFsKT0DK4MiI-82" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontColor=#000000;" parent="1" source="8Br9MOH5oFsKT0DK4MiI-77" target="8Br9MOH5oFsKT0DK4MiI-80" edge="1">
+                <mxCell id="8Br9MOH5oFsKT0DK4MiI-82" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontColor=#000000;strokeColor=#000000;" parent="1" source="8Br9MOH5oFsKT0DK4MiI-77" target="8Br9MOH5oFsKT0DK4MiI-80" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="8Br9MOH5oFsKT0DK4MiI-77" value="Parse chat log - all tags &lt;b&gt;[speak]&lt;/b&gt; inside SECOND top-level tag &lt;b&gt;[replay]&lt;/b&gt;." style="rounded=0;whiteSpace=wrap;html=1;align=center;" parent="1" vertex="1">
+                <mxCell id="8Br9MOH5oFsKT0DK4MiI-77" value="Parse chat log - all tags &lt;b&gt;[speak]&lt;/b&gt; inside FIRST&amp;amp;SECOND&lt;br&gt;top-level tag &lt;b&gt;[replay]&lt;/b&gt;." style="rounded=0;whiteSpace=wrap;html=1;align=center;" parent="1" vertex="1">
                     <mxGeometry x="324" y="870" width="203" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="8Br9MOH5oFsKT0DK4MiI-80" value="End parsing WML" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                <mxCell id="8Br9MOH5oFsKT0DK4MiI-80" value="End parsing WML" style="rounded=1;whiteSpace=wrap;html=1;fontColor=#000000;fillColor=#FFFFFF;strokeColor=#000000;" parent="1" vertex="1">
                     <mxGeometry x="365.5" y="950" width="120" height="30" as="geometry"/>
                 </mxCell>
                 <mxCell id="8Br9MOH5oFsKT0DK4MiI-83" value="Hardcoded for 2 sides" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=2;fontColor=#808080;" parent="1" vertex="1">
                     <mxGeometry x="355.5" y="607" width="140" height="20" as="geometry"/>
                 </mxCell>
-                <mxCell id="8Br9MOH5oFsKT0DK4MiI-84" value="Algorithm of Wesnoth duel replay file parsing" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=19;fontStyle=1;" parent="1" vertex="1">
+                <mxCell id="8Br9MOH5oFsKT0DK4MiI-84" value="Algorithm of Wesnoth duel replay file parsing" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=19;fontStyle=1;fontColor=#000000;" parent="1" vertex="1">
                     <mxGeometry x="40" width="770" height="50" as="geometry"/>
                 </mxCell>
-                <mxCell id="8Br9MOH5oFsKT0DK4MiI-85" value="ver. 1.0.0 (2021-05-18) by Amok" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontStyle=2;" parent="1" vertex="1">
+                <mxCell id="8Br9MOH5oFsKT0DK4MiI-85" value="ver. 1.1.0 (2021-06-01) by Amok" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontStyle=2;fontColor=#000000;" parent="1" vertex="1">
                     <mxGeometry x="30" y="50" width="210" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="2" value="Is there key &quot;&lt;b&gt;campaign_type&lt;/b&gt;&quot;? " style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="364" y="106" width="123" height="44" as="geometry"/>
+                </mxCell>
+                <mxCell id="3" value="Is value of key &quot;&lt;b&gt;campaign_type&lt;/b&gt;&quot; equal &quot;&lt;b&gt;multiplayer&lt;/b&gt;&quot;? " style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="333" y="166" width="185" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="4" value="[ERR] It's not a multiplayer replay. Would skip parsing." style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" parent="1" vertex="1">
+                    <mxGeometry x="590" y="161" width="130" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="5" value="Is there key &quot;&lt;b&gt;campaign_type&lt;/b&gt;&quot;? " style="rounded=0;whiteSpace=wrap;html=1;fontColor=#000000;fillColor=#FFFFFF;strokeColor=#000000;" parent="1" vertex="1">
+                    <mxGeometry x="364" y="106" width="123" height="44" as="geometry"/>
+                </mxCell>
+                <mxCell id="6" value="Is value of key &quot;&lt;b&gt;campaign_type&lt;/b&gt;&quot; equal &quot;&lt;b&gt;multiplayer&lt;/b&gt;&quot;? " style="rounded=0;whiteSpace=wrap;html=1;fontColor=#000000;fillColor=#FFFFFF;strokeColor=#000000;" parent="1" vertex="1">
+                    <mxGeometry x="333" y="166" width="185" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="7" value="[ERR] It's not a multiplayer replay. Would skip parsing." style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fontColor=#000000;fillColor=#FFFFFF;strokeColor=#000000;" parent="1" vertex="1">
+                    <mxGeometry x="590" y="161" width="130" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="8" value="It's savegame." style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fontColor=#000000;fillColor=#FFFFFF;strokeColor=#000000;" parent="1" vertex="1">
+                    <mxGeometry x="130" y="236.75" width="130" height="33.5" as="geometry"/>
+                </mxCell>
+                <mxCell id="9" value="Is there tag &lt;b&gt;[snapshot]&lt;/b&gt;?" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#000000;fillColor=#FFFFFF;strokeColor=#000000;" parent="1" vertex="1">
+                    <mxGeometry x="370" y="230" width="110" height="47" as="geometry"/>
+                </mxCell>
+                <mxCell id="10" value="It's replay." style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fontColor=#000000;fillColor=#FFFFFF;strokeColor=#000000;" parent="1" vertex="1">
+                    <mxGeometry x="590" y="236.75" width="130" height="33.5" as="geometry"/>
+                </mxCell>
+                <mxCell id="11" value="&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; It's a client recorded replay." style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fontColor=#000000;fillColor=#FFFFFF;strokeColor=#000000;" parent="1" vertex="1">
+                    <mxGeometry x="590" y="297.25" width="130" height="33.5" as="geometry"/>
+                </mxCell>
+                <mxCell id="12" value="Is there key &quot;&lt;b&gt;mp_game_title&lt;/b&gt;&quot;? " style="rounded=0;whiteSpace=wrap;html=1;fontColor=#000000;fillColor=#FFFFFF;strokeColor=#000000;" parent="1" vertex="1">
+                    <mxGeometry x="364" y="292" width="123" height="44" as="geometry"/>
+                </mxCell>
+                <mxCell id="13" value="It's a server recorded replay." style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fontColor=#000000;fillColor=#FFFFFF;strokeColor=#000000;" parent="1" vertex="1">
+                    <mxGeometry x="110" y="293.25" width="150" height="42.75" as="geometry"/>
+                </mxCell>
+                <mxCell id="14" value="At least 1 addon." style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fontColor=#000000;fillColor=#FFFFFF;strokeColor=#000000;" parent="1" vertex="1">
+                    <mxGeometry x="130" y="367.25" width="130" height="33.5" as="geometry"/>
+                </mxCell>
+                <mxCell id="15" value="&lt;div&gt;Is there &lt;b&gt;[addon]&lt;/b&gt; tag inside top-level tag &lt;b&gt;[multiplayer]&lt;/b&gt;?&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#000000;fillColor=#FFFFFF;strokeColor=#000000;" parent="1" vertex="1">
+                    <mxGeometry x="334" y="360" width="183" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="16" value="No addon(s)." style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fontColor=#000000;fillColor=#FFFFFF;strokeColor=#000000;" parent="1" vertex="1">
+                    <mxGeometry x="590" y="368.25" width="130" height="33.5" as="geometry"/>
+                </mxCell>
+                <mxCell id="17" value="Get scenario settings between tags &lt;b&gt;[multiplayer]...[options]&lt;/b&gt;." style="rounded=0;whiteSpace=wrap;html=1;fontColor=#000000;fillColor=#FFFFFF;strokeColor=#000000;" parent="1" vertex="1">
+                    <mxGeometry x="334" y="426" width="183" height="45" as="geometry"/>
+                </mxCell>
+                <mxCell id="18" value="By counting tags &lt;b&gt;[init_side]&lt;/b&gt; determine all turns number." style="rounded=0;whiteSpace=wrap;html=1;fontColor=#000000;fillColor=#FFFFFF;strokeColor=#000000;" parent="1" vertex="1">
+                    <mxGeometry x="334" y="485" width="183" height="45" as="geometry"/>
+                </mxCell>
+                <mxCell id="19" value="&lt;div&gt;Get both sides info from tags &lt;b&gt;[side]&lt;/b&gt; inside top-level tag &lt;b&gt;[scenario]&lt;/b&gt;.&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=center;fontColor=#000000;fillColor=#FFFFFF;strokeColor=#000000;" parent="1" vertex="1">
+                    <mxGeometry x="567.5" y="550" width="175" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="20" value="&lt;div&gt;Get both sides info from tags &lt;b&gt;[side]&lt;/b&gt; inside top-level tag &lt;b&gt;[snapshot]&lt;/b&gt;.&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=center;fontColor=#000000;fillColor=#FFFFFF;strokeColor=#000000;" parent="1" vertex="1">
+                    <mxGeometry x="97.5" y="550" width="175" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="21" value="Overwrite leader from tags &lt;b&gt;[unit]&lt;/b&gt; inside tags &lt;b&gt;[side]&lt;/b&gt; inside tag &lt;b&gt;[snapshot]&lt;/b&gt;." style="rounded=0;whiteSpace=wrap;html=1;align=center;fontColor=#000000;fillColor=#FFFFFF;strokeColor=#000000;" parent="1" vertex="1">
+                    <mxGeometry x="97.5" y="630" width="175" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="22" value="Is there top-level tag &lt;b&gt;[carryover_sides_start]&lt;/b&gt; AND inside it tags &lt;b&gt;[side]&lt;/b&gt;?" style="rounded=0;whiteSpace=wrap;html=1;align=center;fontColor=#000000;fillColor=#FFFFFF;strokeColor=#000000;" parent="1" vertex="1">
+                    <mxGeometry x="567.5" y="627" width="175" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="23" value="Overwrite leader from tags &lt;b&gt;[unit]&lt;/b&gt; inside &lt;b&gt;[side]&lt;/b&gt;." style="rounded=0;whiteSpace=wrap;html=1;align=center;fontColor=#000000;fillColor=#FFFFFF;strokeColor=#000000;" parent="1" vertex="1">
+                    <mxGeometry x="567.5" y="722" width="175" height="38" as="geometry"/>
+                </mxCell>
+                <mxCell id="24" value="Overwrite color from tags &lt;b&gt;[old_side1]&lt;/b&gt; and &lt;b&gt;[old_side2]&lt;/b&gt; inside &lt;b&gt;[carryover_sides_start]&lt;/b&gt;." style="rounded=0;whiteSpace=wrap;html=1;align=center;fontColor=#000000;fillColor=#FFFFFF;strokeColor=#000000;" parent="1" vertex="1">
+                    <mxGeometry x="567.5" y="774" width="175" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="25" value="Parse chat log - all tags &lt;b&gt;[speak]&lt;/b&gt; inside FIRST&amp;amp;SECOND&lt;br&gt;top-level tag &lt;b&gt;[replay]&lt;/b&gt;." style="rounded=0;whiteSpace=wrap;html=1;align=center;fontColor=#000000;fillColor=#FFFFFF;strokeColor=#000000;" parent="1" vertex="1">
+                    <mxGeometry x="324" y="870" width="203" height="60" as="geometry"/>
                 </mxCell>
             </root>
         </mxGraphModel>

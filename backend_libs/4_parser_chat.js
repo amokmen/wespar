@@ -18,11 +18,7 @@ const arrReplayBlockBoundaries = ["[replay]", "[/replay]"];
 
 // ======================= END Constants Declaration ==========================
 
-function ParsingSpeakBlock(
-  strSpeakBlock,
-  numCurrentTurn,
-  boolIsFirstSideNowPlaying
-) {
+function ParsingSpeakBlock(strSpeakBlock, numCurrentTurn, boolIsFirstSideNowPlaying) {
   let objResult = {};
 
   objResult = objStringFunctions.SearchPrefixesInEachLine(
@@ -53,21 +49,57 @@ module.exports = (strReplayAsString) => {
   // Resulting array of [speak] blocks
   const arrGlobalAllSpeakObjHere = [];
 
-  // There is another [replay] tag at start of WML, but I don't need it
-  // So, get position of FIRST FROM END [replay] and position of FIRST FROM END [/replay]
-  const numPositionReplayTag = strReplayAsString.lastIndexOf(
-    arrReplayBlockBoundaries[0]
-  );
+  // There is SECOND instance [replay] tag at start of WML, usually empty, but if savegame, there are could be chat!
+  // In this case I need to concatenate content of 2 instances of [replay] tag!
+  // Check if there are really 2 same tags [replay]
+  let numReplayTagsCounter = 0;
+  numReplayTagsCounter = strReplayAsString.split(arrReplayBlockBoundaries[0]).length - 1;
 
-  const numPositionReplayEndTag = strReplayAsString.lastIndexOf(
-    arrReplayBlockBoundaries[1]
-  );
+  let strCutForPerformance = "";
+  if (numReplayTagsCounter === 2) {
+    // Get position of FIRST start and end
+    const numPositionReplayTag1 = strReplayAsString.indexOf(arrReplayBlockBoundaries[0]);
+    const numPositionReplayTagEnd1 = strReplayAsString.indexOf(
+      arrReplayBlockBoundaries[1]
+    );
+    const strReplayTag1Content = strReplayAsString.substring(
+      numPositionReplayTag1,
+      numPositionReplayTagEnd1
+    );
 
-  // Could not use here my CutStringByBoundaries()
-  const strCutForPerformance = strReplayAsString.substring(
-    numPositionReplayTag,
-    numPositionReplayEndTag
-  );
+    // So, get position of FIRST FROM END [replay] and position of FIRST FROM END [/replay]
+    const numPositionReplayTag2 = strReplayAsString.lastIndexOf(
+      arrReplayBlockBoundaries[0]
+    );
+    const numPositionReplayEndTag2 = strReplayAsString.lastIndexOf(
+      arrReplayBlockBoundaries[1]
+    );
+    // Could not use here my CutStringByBoundaries()
+    const strReplayTag2Content = strReplayAsString.substring(
+      numPositionReplayTag2,
+      numPositionReplayEndTag2
+    );
+
+    // Concatenate two instances of [replay] tag
+    strCutForPerformance = strReplayTag1Content + strReplayTag2Content;
+  } else if (numReplayTagsCounter === 1) {
+    // So, get position of FIRST FROM END [replay] and position of FIRST FROM END [/replay]
+    const numPositionReplayTag2 = strReplayAsString.lastIndexOf(
+      arrReplayBlockBoundaries[0]
+    );
+    const numPositionReplayEndTag2 = strReplayAsString.lastIndexOf(
+      arrReplayBlockBoundaries[1]
+    );
+    // Could not use here my CutStringByBoundaries()
+    const strReplayTag2Content = strReplayAsString.substring(
+      numPositionReplayTag2,
+      numPositionReplayEndTag2
+    );
+
+    strCutForPerformance = strReplayTag2Content;
+  } else {
+    // TODO: error - no tags [replay]
+  }
 
   const arrSplittedByEOL = strCutForPerformance.split(strEOL);
 
@@ -113,7 +145,16 @@ module.exports = (strReplayAsString) => {
         boolIsFirstSideNowPlaying
       );
 
-      arrGlobalAllSpeakObjHere.push(objSomeResult);
+      // Removing annoying server messages like "Someone has logged into the lobby" or "Someone has disconnected."
+      if (
+        !(
+          objSomeResult["message"].includes("logged into the lobby") ||
+          objSomeResult["message"].includes("has disconnected")
+        )
+      ) {
+        // adding element only if this element do not contain annoying server messages
+        arrGlobalAllSpeakObjHere.push(objSomeResult);
+      }
     }
 
     if (boolIsExistEndTurn) {
