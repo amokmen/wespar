@@ -14,13 +14,14 @@ Extract from a [Wesnoth](https://wesnoth.org) **replay**: game settings, sides i
 - [User's manual](#users-manual)
 - [Users FAQ](#users-faq)
 - [API](#api)
-  - [REQUEST](#request)
-  - [RESPONSE](#response)
+    - [REQUEST](#request)
+    - [RESPONSE](#response)
 - [Installing](#installing)
 - [Afterword](#afterword)
 - [Software Disclaimer](#software-disclaimer)
 - [Donation sponsorship Disclaimer](#donation-sponsorship-disclaimer)
 - [Links](#links)
+- [UI screenshots](#ui-screenshots)
 
 <!-- /TOC -->
 
@@ -46,7 +47,7 @@ Example of colorized chat log with binding to turn numbers:
 
 1. Find a replay at [official Wesnoth replays server](https://replays.wesnoth.org). Supported only 1.14.X versions (probably other versions could work too).
 2. Copy link to replay (example: [link](<http://replay.wesnoth.org/1.14/2021/03/22/2p__Weldyn_Channel_Turn_14_(155976).bz2>)).
-3. Open app [https://wespar.herokuapp.com](https://wespar.herokuapp.com). If web-site didn't response instantly, `you should wait about 10 seconds` (it's because free virtual Heroku instance need that time to warm up - become active after sleeping).
+3. Open app [https://wespar.onrender.com/](https://wespar.onrender.com/).
 4. Insert link and press button.
 5. Server would download that replay, decompress and parse info.
 6. Result would be shown.
@@ -102,7 +103,7 @@ JSON would be like this:
 Example for cURL:
 
 ```sh
-APP_URL="https://wespar.herokuapp.com"
+APP_URL="https://wespar.onrender.com"
 ENDPOINT="/url"
 
 curl --header "Content-Type: application/json" \
@@ -165,3 +166,13 @@ This project was developed using:
 3. [Meme generator.](https://imgflip.com/memegenerator)
 4. [Cool service for showing key codes, including mobile devices.](https://keycode.info/)
 5. [Great free app for online creating diagrams - Draw.io](https://app.diagrams.net/)
+
+## UI screenshots
+
+Before work:
+
+![GPL3 Logo](./docs/imgs/wespar_frontend_before.png)
+
+After work:
+
+![GPL3 Logo](./docs/imgs/wespar_frontend_after.png)

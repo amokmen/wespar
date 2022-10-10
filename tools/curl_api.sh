@@ -1,6 +1,6 @@
 #!/bin/bash
 
-APP_URL="https://wespar.herokuapp.com"
+APP_URL="https://wespar.onrender.com"
 ENDPOINT="/url"
 
 curl --header "Content-Type: application/json" \
